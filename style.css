@@ -1,0 +1,629 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(234, 236, 239);
+
+}
+main{
+    max-width: 1440px;
+    width: 100%;
+    margin: 40px auto;
+
+}
+header{
+    position: sticky;
+    top: 0;
+}
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(95, 89, 89);
+}
+.logo img{
+   width: 20px; 
+   height: 20px;
+}
+
+.link ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    background-color: black;
+    padding: 15px;
+}
+.link ul li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.link ul li a{
+text-decoration: none;
+color: white;
+align-items: center;
+
+}
+.link ul li:hover{
+
+    border: 1px solid gray;
+    border-radius: 12px;
+    background-color: aqua;
+    padding:5px;
+}
+.hero{
+    display: flex;
+}
+.UNLOCK{
+    width: 70%;
+    height: 100%;
+    color: white;
+   
+
+}
+.back{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgb(0,0,0,0.6)), url(DABY0850.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    padding: 20px;
+    width: 100%;
+    
+   
+}
+.UNLOCK h2{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+ .UNLOCK p{
+    text-align: center;
+    color: rgb(199, 207, 214);
+    font-size: 20px;
+    padding: 10px;
+}
+.UNLOCK .btn{
+    text-align: center;
+    list-style:none ;
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    
+}
+.btn li a{
+    text-decoration: none;
+    border: 1px solid rgb(187, 229, 206);
+    color: rgb(230, 238, 238);
+    border-radius: 12px;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn li a:hover{
+    background-color: rgb(167, 225, 205);
+    color: black;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    color: black;
+    margin-top: 5%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.grid-item{
+    background-color:white;
+    box-shadow: 3px 3px 3px 3px rgb(234, 227, 227);
+    
+}
+#end{
+    padding: 5px;
+        color: rgb(65, 60, 60);
+        font-size: 17px;
+    
+}
+ .grid-item p{
+    color: rgb(65, 60, 60);
+    
+   margin: 2px 0;
+    
+}
+.grid-item h3{
+    font-size: 17px;
+    padding: 0 10px;
+}
+.hero-section{
+    display: flex;
+}
+.grid-item p{
+    padding: 10px;
+}
+.UNLOCK{
+    width: 100%;
+    
+}
+.grid-item img{
+    width: 50px;
+    height: 50px;
+    padding: 10px ;
+}
+.design-container{
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 5%;
+    
+
+}
+.design-container h2{
+    color: black;
+}
+.design-container p{
+    color: black;
+}
+.design h3{
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.design p{
+    color: rgb(79, 73, 73);
+    padding: 10px 0;
+
+}
+.design{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.design .grid img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.aside-section{
+    width: 45%;
+    height: 100%;
+    background-color:white;
+    box-shadow: ;
+}
+.first-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center; */
+
+}
+.form{
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px gray;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+}
+.number{
+    
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+    background: rgb(212, 212, 210);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.number span:hover{
+    border: 1px solid black;
+    border-radius:8px;
+    width: 20%;
+    background: gray;
+    text-align: center;
+}
+label{
+    color: black;
+    padding: 10px 0;
+}
+input{
+    width: 100%;
+    padding: 7px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+button{
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    background: rgb(89, 123, 227);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.box{
+    border: 1px solid black;
+    padding: 20px;
+    background: rgb(246, 243, 243);
+    width: 100%;
+    height: 100%;
+}
+.Jupiter{
+    background: pink;
+    padding: 15px;
+}
+.Mars{
+    background: orange;
+    padding: 15px;
+}
+.Neptune{
+    background: green;
+    padding: 15px;
+}
+.Earth{
+    background: rgb(105, 105, 196);
+    padding: 10px;
+    text-align: center;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    gap: 10px;
+}
+.colums{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+   
+
+}
+.colums h2{
+    text-align: center;
+    color: #000;
+}
+.colums p{
+    text-align: center;
+    color: #000;
+}
+.colums-grid{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   padding: 5px;
+   
+}
+.colums1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 50px);
+    gap: 10px;
+    border: 2px solid #afafaf;
+    padding: 5px;
+}
+.cap{
+    background-color:rgb(160, 157, 157);
+    padding: 10px;
+    
+}
+.cup1{
+    grid-row: span 2;
+}
+.cup4{
+   
+    grid-column: span 2;
+}
+.colums2{
+      display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 30px);
+    gap: 10px;
+    border: 2px solid #afafaf;
+    padding: 5px;
+}
+.tap{
+    background-color:rgb(160, 157, 157);
+    padding: 5px;
+}
+.cat1{
+    grid-row: span 3;
+}
+.cat2{
+    grid-column: span 2;
+}
+.cat3{
+    grid-row: span 3;
+}
+.cat6{
+    grid-column: span 2;
+}
+.service{
+    padding: 10px;
+    text-align: center;
+}
+.service h2{
+    color: #000;
+}
+.service p{
+    color: #000;
+}
+.service-image{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5px;
+    gap: 5px;
+    
+}
+.service-image img{
+    width: 100%;
+    height: 100%;
+}
+.row-grid{
+    padding: 10px;
+    color: #000;
+    
+}
+.h2{
+    text-align: center;
+    color: #000;
+}
+.p{
+    text-align: center;
+}
+.row-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 150px);
+    gap: 10px;
+    padding: 5px;
+}
+.row-image img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+.row-image p{
+    font-size: 15px;
+}
+.portfolio{
+    width: 100%;
+    padding: 30px 0;
+}
+.portfolio-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 45%;
+    gap: 20px;
+    padding: 15px 0;
+    
+}
+.portfolio-grid div{
+    background-color: white;
+}
+.portfolio-grid h2{
+    padding: 10px;
+}
+.portfolio-grid p{
+    padding: 10px;
+}
+.portfolio-grid img{
+    width: 100%;
+    height: 150px;
+}
+.team{
+    background-color: white;
+    padding-top: 20px;
+}
+.team-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding-top: 15px;   
+}
+.shadow{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 15px;
+
+}
+.team-grid img{
+    width: 100%;
+    height: 150px;
+}
+#student{
+    padding: 20px 0;
+
+}
+.student-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-top: 10px;
+
+}
+.student-grid div h2{
+    padding: 10px 0;
+}
+.student-grid div{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 20px;
+    line-height: 20px;
+     padding-bottom: 20px;
+
+}
+.student-grid div p{
+    padding-bottom: 20px;
+}
+.student-grid div button{
+    width: 30%;
+    background-color: #000;
+    cursor: pointer;
+}
+.footer{
+    background-color: #000;
+    color: white;
+    padding-top: 30px;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.footer-grid div h3 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.footer-grid div{
+    list-style: none;
+    padding: 10px 0;
+}
+.footer-grid div li a{
+    text-decoration: none;
+    color: #afafaf;
+}
+.Social{
+    display: flex;
+  align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    list-style: none;
+    padding: 10px 0;
+}
+.hamberger{
+    display: none;
+    width: 30px;
+
+}
+.hamberger span{
+    display: block;
+    background-color: #000;
+    margin: 5px;
+    height: 3px;
+}
+
+
+
+
+
+@media(max-width: 780px){
+    body{
+        margin: 0px auto;
+    }
+    main{
+        margin: 25px 0;
+        width: 100%;
+        padding: 20px;
+    }
+    .hamberger{
+       display: block;
+    }
+    .logo div h1{
+        font-size: 20px;
+    }
+    .logo {
+        
+    }
+    .Social{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .hamberger span{
+       display: block;
+        
+    }
+    .link{
+        display: none;
+    }
+    .nav-bar{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #afafaf;
+        
+    }
+    header{
+
+    }
+    .hero-section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+        
+    }
+    .btn{
+        font-size: 10px;
+    }
+    .design{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .first-section{
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 20px;
+    }
+    .colums-grid{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .service-image{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .row-image p{
+        font-size: 10px;
+    }
+    .portfolio-grid{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .team-grid{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .student-grid{
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .aside-section{
+        width: 100%;
+    }
+    .box{
+        width: 80%;
+    }
+    .form{
+        width: 80%;
+    }
+    .buttons{
+    }
+    .footer-grid{
+        grid-template-columns: 1fr;
+        gap: 10px;
+        text-align: center;
+    }
+}
